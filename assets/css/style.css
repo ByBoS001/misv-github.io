@@ -243,3 +243,19 @@ body {
     font-size: 1em; /* Ajuste del tamaño de fuente */
   }
 }
+
+.fas.fa-heart {
+  position: relative;
+  font-size: 50px; /* Ajusta el tamaño del icono */
+  color: red; /* El color del icono */
+}
+
+.fas.fa-heart strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px; /* Ajusta el tamaño del texto */
+  font-weight: bold;
+  color: white; /* Color del texto dentro del ícono */
+}
